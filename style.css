@@ -1,0 +1,59 @@
+.nav {
+  background: #333;
+}
+button {
+  background: #333 !important;
+  margin-bottom: 20px;
+  width: 50%;
+  padding: 11px;
+  font-size: 1.1em;
+  color: #fff;
+  border: 0;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button.active {
+  background: #00bfa5 !important;
+}
+form span {
+  color: cyan;
+}
+.x-axis path,
+.y-axis path,
+.x-axis line,
+.y-axis line {
+  stroke: whitesmoke;
+}
+
+.x-axis text,
+.y-axis text {
+  fill: grey;
+  font-size: 14px;
+}
+#mySubmit {
+  background-color: #ccc;
+  border-bottom-color: cyan;
+  margin-bottom: 20px;
+  font-size: 1.6em;
+  color: #333;
+  padding: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+#demo {
+  background-color: lightgrey;
+  position: absolute;
+  right: 16px;
+  top: 150px;
+  font-size: 16px;
+  height: 50px;
+  width: 300px;
+	border-radius: 2px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+#demo:hover {
+  display: none;
+}
